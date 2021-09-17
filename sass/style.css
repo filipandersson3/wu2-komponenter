@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  border-style: solid;
+  border-radius: 1rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+.card-img {
+  width: 4rem;
+  height: 4rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.card-img-right {
+  position: absolute;
+  right: 0;
+  transform: translateY(-50%);
+  top: 50%;
+}
+.card-content {
+  margin-right: 5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/*# sourceMappingURL=style.css.map */
