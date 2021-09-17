@@ -111,6 +111,9 @@ select {
   margin-top: auto;
   margin-bottom: auto;
 }
+.card-more {
+  z-index: 2;
+}
 .card:hover {
   background-color: #cfeff1;
 }

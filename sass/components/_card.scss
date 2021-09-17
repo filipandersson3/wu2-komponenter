@@ -35,6 +35,10 @@
         margin-bottom: auto;
     }
 
+    &-more {
+        z-index: 2;
+    }
+
     &:hover {
         background-color: rgb(207, 239, 241);
     }
