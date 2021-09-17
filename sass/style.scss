@@ -1,12 +1,15 @@
+$primary: rgb(247, 247, 247);
+$secondary: rgb(128, 128, 128);
+$tertiary: rgb(32, 32, 32);
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
 
 
 
 
-
-
-
-
-
-
-@import "components/card"
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "utilities/reset";
+@import "components/card";
