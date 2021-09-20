@@ -128,4 +128,17 @@ select {
   content: "";
 }
 
+.dropdown-content {
+  z-index: 2;
+  color: #2d465c;
+  display: none;
+  min-width: 10rem;
+  max-width: fit-content;
+  background-color: beige;
+  padding: 1rem;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 /*# sourceMappingURL=style.css.map */

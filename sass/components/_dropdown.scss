@@ -1,0 +1,18 @@
+.dropdown {
+
+    &-content {
+        z-index: 2;
+        color: rgb(45, 70, 92);
+        display: none;
+        min-width: 10rem;
+        max-width: fit-content;
+        background-color: beige;
+        padding: 1rem;
+    }
+
+    &:hover {
+        .dropdown-content {
+            display: block;
+        }
+    }
+}
